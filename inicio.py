@@ -27,3 +27,7 @@ def json():
         "pass": "pelao",
         "suenos": "tener pelo"
     }
+
+@app.route('/route_name')
+def method_name():
+    pass
