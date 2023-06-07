@@ -14,7 +14,7 @@ def form():
 
 @app.route('/login')
 def login():
-    return render_template('login.html')
+    return render_template('jajaja.html')
 
 @app.route('/aborto', methods=['GET', 'POST'])
 def aborto():
